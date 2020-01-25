@@ -1,0 +1,242 @@
+	body{
+		font: 15px/1.5 Arial, Helvetica, sans-serif;
+		padding: 0;
+		margin: 0;
+		background-color: #f4f4f4;
+	}
+
+	/* Für den Inhalt der Seite */
+	.container{
+		width: 80%;
+		margin: auto;
+		overflow: hidden;
+	}
+
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Header */
+	.date{
+
+		font-size: 1em;
+		text-align: right;
+		margin: auto;
+		padding-top: 10px;
+	}
+	.banner{
+		float: right;
+	}
+	header{
+		background-color: #f9a78e;
+		color: black;
+		padding:  1em;
+		min-height: 5em;
+		border: #000;
+	}
+	h1{
+		float: left;
+		padding: 0 20px 0 20px;
+	}
+	/* Navigation bar*/
+	#navbar{
+		background: gray;
+		min-height: 1.5em;
+		padding: 1em;
+	}
+	nav ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	nav li{
+		float: left;
+		padding: 0 20px 0 0px;
+		list-style: none;
+	}
+
+	nav a{
+		color: white;
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	#First h2{
+		background: lightgray;
+		color: grey;
+	}
+	.pop{
+		width: 79%;
+		background: lightgray;
+		color: grey;
+	}
+	#News{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	/* Website :D*/
+	.topnews{
+		width: 79%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.topnews img{
+		width: 100%;
+		height: 60%;
+		object-fit: fill;
+	}
+	.topnews h3{
+		font-size: 1.5em;
+		margin: 0.5em;
+		padding: 0.5em;
+	}
+	aside{
+		float: right;
+		align-self: flex-end;
+		margin-bottom: 120px;
+	}
+	.popular{
+		width: 79%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.popular img{
+		width: 100%;
+		height: 60%;
+		object-fit: fill;
+	}
+	.popular h3{
+		font-size: 1.5em;
+		margin: 0.5em;
+		padding: 0.5em;
+	}
+	.picture2{
+		height: 200px;
+		width: 300px;
+		font-size: 10px;
+		background: gray;
+		color: white;
+	}
+	.picture3{
+		height: 200px;
+		width: 300px;
+		font-size: 10px;
+		background: gray;
+		color: white;
+
+	}
+	.picture4{
+		height: 200px;
+		width: 300px;
+		font-size: 10px;
+		background: gray;
+		color: white;
+
+	}
+	.picture5{
+		height: 200px;
+		width: 300px;
+		font-size: 10px;
+		background: gray;
+		color: white;
+
+	}
+	.picture6{
+		height: 200px;
+		width: 300px;
+		font-size: 10px;
+		background: gray;
+		color: white;
+
+	}
+	.picture7{
+		height: 200px;
+		width: 300px;
+		font-size: 10px;
+		background: gray;
+		color: white;
+
+	}
+	#hero{
+		padding: 2em;
+		text-align: center;
+	}
+	#hero img{
+		width: 100%;
+		object-fit: cover;
+	}
+	.popu{
+		width: 79%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.pop2{
+		width: 500px;
+		height: 500px;
+		background: grey;
+		color: white;
+	}
+	.pop2 h2{
+		padding: 0.5em;
+	}
+	.pop3{
+		width: 500px;
+		height: 500px;
+		background: grey;
+		color: white;
+	}
+	.pop3 h2{
+		padding: 0.5em;
+	}
+	.popu1{
+		width: 79%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.pop4{
+		width: 500px;
+		height: 500px;
+		margin-top: 1.5em;
+		background: grey;
+		color: white;
+	}
+	.pop4 h2{
+		padding: 0.5em;
+	}
+	.pop5{
+		width: 500px;
+		height: 500px;
+		margin-top: 1.5em;
+		background: grey;
+		color: white;
+	}
+	.pop5 h2{
+		padding: 0.5em;
+	}
+	footer{
+		text-align: center;
+	}
+	.foot{
+		height: 250px;
+		margin-top: 5em;
+		background: grey;
+	}
+	footer p{
+		padding-top: 130px;
+	}
+	.logobottom{
+		float: right;
+		padding: 20px;
+	}
+	/* {
+		border: red 1px solid;
+	}
+	@media(max-width: 480px)
